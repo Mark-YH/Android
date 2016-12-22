@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvPtName" />
+
+    <AutoCompleteTextView
+        android:id="@+id/acIdName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:completionThreshold="1" />
+   
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:id="@+id/tvIdSex"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvPtSex" />
+	        
+	    <RadioGroup
+	        android:id="@+id/rdgIdSex"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:checkedButton="@+id/rbIdMale"
+	        android:orientation="horizontal" >
+	        
+	        <RadioButton
+	            android:id="@+id/rbIdMale"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/rbPtMale" />
+	        <RadioButton
+		        android:id="@+id/rbIdFemale"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/rbPtFemale" />	        	
+	    </RadioGroup>
+	</LinearLayout>
+    
+    <Button
+        android:id="@+id/btIdOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btPtOk" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnIdImage" />
+
+	<GridLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/ivIdLeft"
+		android:src="@drawable/blank" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivIdSpn" />
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/ivIdRight"
+		android:src="@drawable/blank" />
+	</GridLayout>
+
+	<GridLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	<ImageButton
+		android:src="@drawable/button_left"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/ibtIdLeft" />
+
+	<ImageButton
+		android:src="@drawable/button_right"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/ibtIdRight" />
+	</GridLayout>
+</LinearLayout>
