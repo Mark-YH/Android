@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch07選項鈕群組</string>
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>
+    <string name="btPtOk">確定</string>
+    <string name="rbPtMale">男性</string>
+    <string name="rbPtFemale">女性</string>
+    <string-array name="nameArray">
+        <item>Alex</item>
+        <item>Adam</item>
+        <item>Bob</item>
+        <item>Bryant</item>
+        <item>John</item>
+        <item>Jason</item>
+        <item>Jordan</item>
+        <item>Mary</item>
+        <item>Maggie</item>
+        <item>Michelle</item>
+    </string-array>
+
+</resources>

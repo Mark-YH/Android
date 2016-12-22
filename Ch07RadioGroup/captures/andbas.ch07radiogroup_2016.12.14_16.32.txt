@@ -1,0 +1,52 @@
+TASK andbas.ch07radiogroup id=54
+  ACTIVITY andbas.ch07radiogroup/.MainActivity a339f71 pid=21446
+    Local Activity b30b0d5 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v dpad/v s.7}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@35a60ea
+        mContainer=android.app.Activity$HostCallbacks@35a60ea
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false      mIsAmbientMode=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=7106081 (217 ms ago)
+    View Hierarchy:
+      DecorView@5febfdb[MainActivity]
+        com.android.internal.widget.ActionBarOverlayLayout{a4e9a78 V.ED..... ........ 0,0-1080,1794 #10203ed android:id/decor_content_parent}
+          android.widget.FrameLayout{7588551 V.E...... ........ 0,189-1080,1794 #1020002 android:id/content}
+            android.widget.LinearLayout{6f5a1b6 V.E...... ........ 0,0-1080,1605}
+              android.widget.TextView{69f7eb7 V.ED..... ........ 0,0-1080,51 #7f070000 app:id/textView1}
+              android.widget.EditText{30ee624 VFED..CL. .F...... 0,51-1080,153 #7f070001 app:id/etIdName}
+              android.widget.LinearLayout{b4f258d V.E...... ........ 0,153-1080,237}
+                android.widget.TextView{6322342 V.ED..... ........ 0,0-84,51 #7f070002 app:id/tvIdSex}
+                android.widget.RadioGroup{1234f53 V.E...... ........ 84,0-420,84 #7f070003 app:id/rdgIdSex}
+                  android.widget.RadioButton{b664090 VFED..C.. ........ 0,0-168,84 #7f070004 app:id/rbIdMale}
+                  android.widget.RadioButton{1958d89 VFED..C.. ........ 168,0-336,84 #7f070005 app:id/rbIdFemale}
+              android.widget.Button{ec3318e VFED..C.. ........ 0,237-1080,363 #7f070006 app:id/btIdOk}
+          com.android.internal.widget.ActionBarContainer{4098daf V.ED..... ........ 0,63-1080,189 #10203ee android:id/action_bar_container}
+            com.android.internal.widget.ActionBarView{596d5bc V.E...... ........ 0,0-1080,126 #10203ef android:id/action_bar}
+              android.widget.LinearLayout{1c07945 V.....C.. ........ 22,0-492,126}
+                com.android.internal.widget.ActionBarView$HomeView{444d89a V.E...... ........ 0,0-105,126}
+                  android.widget.ImageView{c6b55cb G.ED..... ......I. 0,0-0,0 #102004b android:id/up}
+                  android.widget.ImageView{3d991a8 V.ED..... ........ 10,21-94,105 #102002c android:id/home}
+                android.widget.LinearLayout{df464c1 V.E...... ........ 105,31-470,94}
+                  android.widget.TextView{607e466 V.ED..... ........ 0,0-344,63 #1020314 android:id/action_bar_title}
+                  android.widget.TextView{5d783a7 G.ED..... ......I. 0,0-0,0 #1020315 android:id/action_bar_subtitle}
+              android.widget.ActionMenuView{10a2054 V.ED..... ......ID 1080,0-1080,126}
+            com.android.internal.widget.ActionBarContextView{c218bfd G.E...... ......ID 0,0-0,0 #10203f0 android:id/action_context_bar}
+          com.android.internal.widget.ActionBarContainer{59de0f2 G.ED..... ......ID 0,0-0,0 #10203f1 android:id/split_action_bar}
+    Looper (main, tid 1) {beeb343}
+      Message 0: { when=+283ms callback=android.widget.Editor$Blink target=android.view.ViewRootImpl$ViewRootHandler }
+      (Total messages: 1, polling=false, quitting=false)
