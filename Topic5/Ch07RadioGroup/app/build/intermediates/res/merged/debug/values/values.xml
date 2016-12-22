@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Rui/Documents/class/ch07/Ch07RadioGroup/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="nameArray">
+        <item>Alex</item>
+        <item>Adam</item>
+        <item>Bob</item>
+        <item>Bryant</item>
+        <item>John</item>
+        <item>Jason</item>
+        <item>Jordan</item>
+        <item>Mary</item>
+        <item>Maggie</item>
+        <item>Michelle</item>
+    </string-array>
+    <!-- From: file:/Users/Rui/Documents/class/ch07/Ch07RadioGroup/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/Rui/Documents/class/ch07/Ch07RadioGroup/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Ch07選項鈕群組</string>
+    <string name="btPtOk">確定</string>
+    <string name="rbPtFemale">女性</string>
+    <string name="rbPtMale">男性</string>
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>
+    <!-- From: file:/Users/Rui/Documents/class/ch07/Ch07RadioGroup/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+</resources>
